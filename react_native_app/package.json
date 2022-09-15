@@ -1,0 +1,41 @@
+{
+  "name": "react_native_app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
+    "@react-native-community/slider": "^4.3.1",
+    "expo": "~46.0.9",
+    "expo-status-bar": "~1.4.0",
+    "i": "^0.3.7",
+    "native-base": "^3.4.15",
+    "npm": "^8.19.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-h5-audio-player": "^3.8.5",
+    "react-native": "0.69.5",
+    "react-native-paper": "^4.12.4",
+    "react-native-parallax-header": "^1.1.4",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-web": "~0.18.7",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-player": "^2.10.1",
+    "rxjs": "^7.5.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "^16.8.23",
+    "@types/react-native": "^0.70.0",
+    "babel-preset-expo": "^7.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "private": true
+}
